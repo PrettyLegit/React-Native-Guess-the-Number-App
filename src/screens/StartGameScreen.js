@@ -31,7 +31,6 @@ const StartGameScreen = ({ onPickNumber }) => {
       );
       return;
     }
-    console.log(enteredNumber, "is a valid number");
     onPickNumber(chosenNumber);
   }
   return (
