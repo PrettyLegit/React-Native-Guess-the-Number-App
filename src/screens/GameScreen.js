@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { StyleSheet, View, Text } from "react-native";
-import Title from "../components/Title/Title";
+import Title from "@/components/Title/Title";
 
 function generateRandomBetween(min, max, exclude) {
   const rndNum = Math.floor(Math.random() * (max - min)) + min;
