@@ -1,4 +1,4 @@
-import Colors from "@/utils/colors";
+import Colors from "@src/utils/colors";
 import { StyleSheet, View } from "react-native";
 
 const Card = ({ children }) => {

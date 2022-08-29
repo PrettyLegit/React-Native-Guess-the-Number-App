@@ -1,7 +1,7 @@
-import GameOverScreen from "@/screens/GameOverScreen";
-import GameScreen from "@/screens/GameScreen";
-import StartGameScreen from "@/screens/StartGameScreen";
-import Colors from "@/utils/colors";
+import GameOverScreen from "@src/screens/GameOverScreen";
+import GameScreen from "@src/screens/GameScreen";
+import StartGameScreen from "@src/screens/StartGameScreen";
+import Colors from "@src/utils/colors";
 import { LinearGradient } from "expo-linear-gradient";
 import { useState } from "react";
 import { ImageBackground, SafeAreaView, StyleSheet } from "react-native";
@@ -37,7 +37,7 @@ export default function App() {
       style={styles.rootScreen}
     >
       <ImageBackground
-        source={require("assets/images/background.png")}
+        source={require("@assets/images/background.png")}
         resizeMode={"cover"}
         imageStyle={styles.backgroundImage}
         style={styles.rootScreen}

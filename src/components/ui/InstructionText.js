@@ -1,4 +1,4 @@
-import Colors from "@/utils/colors";
+import Colors from "@src/utils/colors";
 import { StyleSheet, Text } from "react-native";
 
 const InstructionText = ({ children, customStyle }) => {

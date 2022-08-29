@@ -1,8 +1,8 @@
-import NumberContainer from "@/components/game/NumberContainer";
-import Card from "@/components/ui/Card";
-import InstructionText from "@/components/ui/InstructionText";
-import PrimaryButton from "@/components/ui/PrimaryButton";
-import Title from "@/components/ui/Title";
+import NumberContainer from "@src/components/game/NumberContainer";
+import Card from "@src/components/ui/Card";
+import InstructionText from "@src/components/ui/InstructionText";
+import PrimaryButton from "@src/components/ui/PrimaryButton";
+import Title from "@src/components/ui/Title";
 import { useEffect, useState } from "react";
 import { Alert, StyleSheet, View } from "react-native";
 

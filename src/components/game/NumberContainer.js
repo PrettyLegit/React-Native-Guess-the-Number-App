@@ -1,4 +1,4 @@
-import Colors from "@/utils/colors";
+import Colors from "@src/utils/colors";
 import { StyleSheet, Text, View } from "react-native";
 
 const NumberContainer = ({ children }) => {
